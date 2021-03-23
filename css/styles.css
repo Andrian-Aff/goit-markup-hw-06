@@ -507,7 +507,10 @@ body {
 
 .footer-link-location {
   color: var(--accent-color-text);
-  margin-bottom: 9px;
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .footer-link-address {
@@ -559,6 +562,63 @@ body {
 .footer-social-link:focus {
   background-color: var(--accent-color);
 }
+
+.footer-sicial-links {
+  margin-right: 93px;
+}
+
+.footer-join-wrapper {
+  display: flex;
+}
+.subscribe-title {
+  display: block;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color-text);
+  margin-bottom: 20px;
+}
+
+input {
+  padding-left: 16px;
+  padding-top: 18px;
+  padding-bottom: 12px;
+  margin-right: 12px;
+  min-width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.button-join-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  color: var(--accent-color-text);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: transparent;
+}
+
+.icon-send {
+  margin-left: 10px;
+}
+
 /*===============END FOOTER======================*/
 
 /*==================PORTFOLIO NAVIGATION=======================*/
@@ -747,7 +807,5 @@ body {
 
 .icon-close {
   fill: currentColor;
-  width: 18px;
-  height: 18px;
 }
 /*===============END MODAL-BTN======================*/
