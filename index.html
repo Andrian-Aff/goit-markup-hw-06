@@ -387,10 +387,10 @@
                     </li>
                 </ul>
             </div>
-            <form class="footer-subscribe">
-                <label for="join-footer" class="subscribe-title">Подпишитесь на рассылку</label>
+            <form class="footer-subscribe" method="POST">
+                <p class="subscribe-title">Подпишитесь на рассылку</p>
                 <div class="footer-join-wrapper">
-                    <input type="text" name="user-email" id="join-footer" placeholder="E-mail" minlength="5" class="">
+                    <input type="text" name="user-email" id="join-footer" placeholder="E-mail" minlength="5" required>
                     <button type="submit" class="button-join-us">Подписаться
                         <svg class="icon-send" width="24px" height="24px">
                             <use href="./img/sprite.svg#icon-send"></use>

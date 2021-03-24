@@ -571,7 +571,6 @@ body {
   display: flex;
 }
 .subscribe-title {
-  display: block;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
