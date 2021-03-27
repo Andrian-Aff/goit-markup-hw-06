@@ -844,6 +844,7 @@ body {
 .icon-modal-form {
   position: absolute;
   left: 12px;
-  top: 11px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 /*===============END MODAL-BTN======================*/
