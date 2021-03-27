@@ -270,7 +270,7 @@ body {
   padding: 10px 32px;
   text-align: center;
 
-  transition: color var(--transition-funktion);
+  transition: background-color var(--transition-funktion);
 }
 
 .modal-btn:hover,
