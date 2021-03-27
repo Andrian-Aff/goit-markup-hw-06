@@ -563,8 +563,12 @@ body {
   background-color: var(--accent-color);
 }
 
-.footer-sicial-links {
+/*.footer-sicial-links {
   margin-right: 93px;
+}*/
+
+.footer-subscribe {
+  margin-left: auto;
 }
 
 .footer-join-wrapper {
@@ -581,13 +585,14 @@ body {
   margin-bottom: 20px;
 }
 
-input {
+.footer-join-email {
   padding-left: 16px;
   padding-top: 18px;
   padding-bottom: 12px;
   margin-right: 12px;
   min-width: 358px;
   height: 50px;
+  background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -806,5 +811,25 @@ input {
 
 .icon-close {
   fill: currentColor;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.title-modal-form {
+  font-family: var(--main-font);
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 12px;
+}
+
+.modal-form-input {
+  width: 100%;
 }
 /*===============END MODAL-BTN======================*/
