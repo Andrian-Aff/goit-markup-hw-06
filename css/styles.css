@@ -900,7 +900,7 @@ body {
   transition: border var(--transition-funktion);
 }
 
-.modal-form .modal-form-field:nth-last-child {
+.lable-modal-message {
   margin-bottom: 20px;
 }
 
