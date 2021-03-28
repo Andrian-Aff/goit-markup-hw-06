@@ -822,8 +822,8 @@ body {
   fill: currentColor;
 }
 
-.modal-close-btn .icon-close:hover,
-.modal-close-btn .icon-close:focus {
+.modal-close-btn:hover .icon-close,
+.modal-close-btn:focus .icon-close {
   fill: var(--accent-color);
 }
 
