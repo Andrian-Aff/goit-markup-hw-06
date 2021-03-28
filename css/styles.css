@@ -821,8 +821,8 @@ body {
   fill: currentColor;
 }
 
-.icon-close:hover,
-.icon-close:focus {
+.modal-close-btn .icon-close:hover,
+.modal-close-btn .icon-close:focus {
   fill: var(--accent-color);
 }
 
@@ -893,11 +893,14 @@ body {
   height: 120px;
   margin-top: 4px;
   padding: 12px 16px;
-  margin-bottom: 20px;
   resize: none;
   border: 1px solid var(--border-modal-form);
   border-radius: 4px;
   transition: border var(--transition-funktion);
+}
+
+.modal-form .modal-form-field:nth-last-child {
+  margin-bottom: 20px;
 }
 
 .modal-form-message::placeholder {
@@ -947,7 +950,7 @@ body {
 }
 
 .modal-form-term:focus + .modal-form-check-desc::before {
-  border: 1px solid var(--accent-color);
+  border: 3px solid var(--accent-color);
 }
 
 .modal-button-send {
